@@ -1,0 +1,43 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="j1-selector j1-selector-active"><div class="j1-backdrop"></div>
+        <div class="j1-selector-step">1</div>
+        <div class="j1-selector-title">Choose your Country of Residence</div>
+        <div class="j1-selector-control">
+          <select class="form-control" id="j1-country">
+            <option value=""></option>
+            {{#countrySource}}
+            <option value="{{name}}" data-pricebook="{{pricebook}}">{{name}}</option>
+            {{/countrySource}}
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="j1-selector j1-selector-toggle"><div class="j1-backdrop"></div>
+        <div class="j1-selector-step">2</div>
+        <div class="j1-selector-title">Choose your Duration</div>
+        <div class="j1-selector-control">
+          <div class="row">
+            <div class="col-xs-3"><i id="j1-price-step-minus" class="fa fa-minus-circle j1-price-step"></i></div>
+            <div class="col-xs-6"><div id="j1-current-months" class="j1-current-months">12 months</div></div>
+            <div class="col-xs-3"><i id="j1-price-step-plus" class="fa fa-plus-circle j1-price-step"></i></div>
+            <div class="col-xs-12"><div id="j1-add-text"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="j1-selector j1-selector-toggle"><div class="j1-backdrop"></div>
+        <div class="j1-selector-step">3</div>
+        <div class="j1-selector-title">Starting Price *</div>
+        <div class="j1-selector-control">
+          <div id="j1-starting-price" class="j1-starting-price"></div>
+          <div id="j1-currency" class="j1-currency"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
