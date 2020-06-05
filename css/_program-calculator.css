@@ -1,4 +1,4 @@
-@import "_basic-bootstrap.css";
+@import "/css/_basic-bootstrap.css";
 $sm: 768px;
 $md: 970px;
 #program-calculator {
