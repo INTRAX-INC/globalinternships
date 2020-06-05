@@ -3,10 +3,10 @@
 var j1Calculator = (function($) {
   var options = {
     compiledTemplate: true,
-    templateLocation: 'https://cdn.jsdelivr.net/gh/dennowong/globalinternships@v1.0.3/js/j1_calculator/j1calculatortemplate.html',
+    templateLocation: 'https://cdn.jsdelivr.net/gh/dennowong/globalinternships@latest/js/j1_calculator/j1calculatortemplate.html',
     handlebarsTemplateInternalName: 'j1CalculatorTemplate.html',
     mainContainer: '#j1-calculator',
-    dataFileLocation: 'https://cdn.jsdelivr.net/gh/dennowong/globalinternships/js/j1_calculator/j1_calculator_pricebook.js'
+    dataFileLocation: 'https://cdn.jsdelivr.net/gh/dennowong/globalinternships@latest/js/j1_calculator/j1_calculator_pricebook.js'
   };
 
   function addEvents() {
