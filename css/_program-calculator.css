@@ -1,4 +1,4 @@
-@import "/css/_basic-bootstrap.css";
+@import "https://cdn.jsdelivr.net/gh/dennowong/globalinternships@latest/css/_basic-bootstrap.css";
 $sm: 768px;
 $md: 970px;
 #program-calculator {
