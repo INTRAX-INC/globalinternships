@@ -1,0 +1,115 @@
+.l-content,
+.l-supplemental {
+	table {
+		@include font-size(16px);
+		@include line-height(16px);
+		margin-bottom: 1em;
+		empty-cells: show;
+		max-width: 100%;
+		width: 100%;
+		border-collapse: collapse;
+		border: 0;
+		padding: 0;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		p {
+			@include font-size(16px);
+			@include line-height(16px);
+		}
+		a {
+			text-decoration: none;
+		}
+		thead {
+			td,
+			th {
+				display: none;
+				@include breakpoint($tablet) {
+					display: table-cell;
+				}
+			}
+		}
+		tr {
+			clear: both;
+			display: table-row;
+			border-bottom: 1px solid #ebebec;
+			@include breakpoint($tablet) {
+				border-bottom-style: none;
+				padding: 0;
+			}
+		}
+		th,
+		td {
+			text-align: left;
+			vertical-align: top;
+			padding: 10px;
+			display: block;
+			@include breakpoint($tablet) {
+				display: table-cell;
+				text-align: left;
+				padding: 1em 20px;
+			}
+			&:first-child {
+				padding-top: 20px;
+				@include breakpoint($tablet) {
+					padding-top: 1em;
+				}
+			}
+			&:last-child {
+				padding-bottom: 20px;
+				@include breakpoint($tablet) {
+					padding-bottom: 1em;
+				}
+			}
+			&:empty {
+				display: none;
+			}
+			.tablesaw-cell-label {
+				display: block;
+				padding: 0 1em 0 0;
+				display: inline-block;
+				@include breakpoint($tablet) {
+					display: none;
+				}
+			}
+			.tablesaw-cell-label-top {
+				display: block;
+			}
+		}
+		.tablesaw-cell-label {
+			display: block;
+			text-align: left;
+			width: 50%;
+			vertical-align: top;
+			@include breakpoint($tablet) {
+				text-align: center;
+			}
+		}
+		.tablesaw-cell-content {
+			max-width: 50%;
+			display: inline-block;
+			text-align: left;
+			line-height:22px;
+			@include breakpoint($tablet) {
+				text-align: left;
+				max-width: 100%;
+			}
+		}
+		th,
+		td {
+			@include font-size(16px);
+			@include line-height(16px);
+		}
+		th {
+			background-color: #00c8ee;
+			border: none;
+		}
+		tbody th {
+			background-color: rgba(255, 255, 255, 0.05);
+		}
+		td {
+			background-color: rgba(255, 255, 255, 0.05);
+			border: none;
+		}
+	}
+}
