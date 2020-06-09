@@ -1,3 +1,5 @@
+.l-content,
+.l-supplemental {
 	table {
 		margin-bottom: 1em;
 		empty-cells: show;
@@ -6,9 +8,6 @@
 		border-collapse: collapse;
 		border: 0;
 		padding: 0;
-		a {
-			text-decoration: none;
-		}
 		thead {
 			td,
 			th {
@@ -96,3 +95,4 @@
 			border: none;
 		}
 	}
+}
