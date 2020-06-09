@@ -1,6 +1,4 @@
 	table {
-		@include font-size(16px);
-		@include line-height(16px);
 		margin-bottom: 1em;
 		empty-cells: show;
 		max-width: 100%;
@@ -8,13 +6,6 @@
 		border-collapse: collapse;
 		border: 0;
 		padding: 0;
-		&:last-child {
-			margin-bottom: 0;
-		}
-		p {
-			@include font-size(16px);
-			@include line-height(16px);
-		}
 		a {
 			text-decoration: none;
 		}
@@ -92,11 +83,6 @@
 				text-align: left;
 				max-width: 100%;
 			}
-		}
-		th,
-		td {
-			@include font-size(16px);
-			@include line-height(16px);
 		}
 		th {
 			background-color: #00c8ee;
