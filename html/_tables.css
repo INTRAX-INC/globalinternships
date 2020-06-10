@@ -8,21 +8,17 @@ tr {
 
 th, td {
 	vertical-align: top;
-	padding: 10px;
+	padding: 5px;
 }
 
-.tablesaw-cell-label td, .tablesaw-cell-label th {
-	padding: 0 1em 0 0;
-}
-
-.tablesaw-cell-label {
-	display: block;
-	vertical-align: top;
-}
+.tablesaw-stack td .tablesaw-cell-label,
+  .tablesaw-stack th .tablesaw-cell-label {
+    padding: 0 1em 0 0;
+    width: 50%;
+  }
 
 .tablesaw-cell-content {
 	max-width: 50%;
-	display: inline-block;
 }
 
 th {
