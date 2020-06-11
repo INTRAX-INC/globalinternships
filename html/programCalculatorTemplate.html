@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  <div class="row price-calculator-selectors">
+    <div class="col-md-4 col-md-push-2">
+      <div class="price-country-of-residence pc-selector pc-selector-active"><div class="pc-backdrop"></div>
+        <div class="pc-price-step">1</div>
+        <div class="pc-price-title">Choose Your Country of Residence</div>
+        <select name="pc_origin" id="pc_origin" class="form-control">
+        <option value="" selected></option>
+        {{#originList}}
+        <option name="{{name}}" value="{{value}}">{{name}}</option>
+        {{/originList}}
+        </select>
+      </div>
+    </div>
+    <div class="col-md-4 col-md-push-2">
+      <div class="price-choose-destination pc-selector"><div class="pc-backdrop"></div>
+        <div class="pc-price-step">2</div>
+        <div class="pc-price-title">Choose Your Destination</div>
+        <select name="pc_destination" id="pc_destination" class="form-control"></select>
+      </div>
+   </div>
+
+</div>
+
+
+<div class="row price-result price-hidden">
+
+  <div class="col-md-4 col-md-push-2">
+    <div class="starting-price"></div>
+  </div>
+  <div class="col-md-4 col-md-push-2">
+    <div class="price-included">
+
+      <h4>What's Included*</h4>
+      <div class="whats-included-list"></div>
+      <div class="after-whats-included-list">*based on 2 month program duration</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="pc-bottom-note">*Please note program fees reflect estimated costs for programs based on country of residence and may vary depending on duration and service inclusions.</p>
+
+</div>
