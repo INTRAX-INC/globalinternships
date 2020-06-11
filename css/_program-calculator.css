@@ -1,148 +1,150 @@
-@import "https://cdn.jsdelivr.net/gh/dennowong/globalinternships@latest/css/_basic-bootstrap.css";
-$sm: 768px;
-$md: 970px;
 #program-calculator {
-    @include basic-bootstrap();
 }
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
 .pc-selector {
     position: relative;
-    background-color: #D4E0E8;
-    @include breakpoint($md) {
-        width: 250px;
-    }
+    background-color: #e3f6f5;
     height: 190px;
     border-radius: 5px;
     margin: 10px;
     padding: 20px;
-    .pc-backdrop {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 190px;
-        border-radius: 5px;
-        background-color: rgba(#fff, 0.8);
-        z-index: 10;
-        //display: none;
-    }
-    .j1-current-months {
-        white-space: nowrap;
-        text-align: center;
-        margin-top: 0.5rem;
-    }
-    .pc-price-step {
-        font-size: 2rem;
-        color: #2A6489;
-        font-family: milowebbold;
-        &:hover {
-            color: darken(#2A6489, 5%);
-        }
-    }
-    .j1-selector-step {
-        font-size: 1.5rem;
-    }
-    .pc-price-title {
-        height: 60px;
-        margin-top: 10px;
-        //border-bottom: 2px solid #2A6489;
-        color: #4D4D4D;
-    }
-    .pc-selector-control {
-        margin-top: 0.5rem;
-        display: none;
-    }
-    &.pc-selector-active {
-        .pc-backdrop {
-            display: none;
-        }
-        .j1-selector-control {
-            display: block;
-        }
-    }
-    .j1-starting-price {
-        color: #2A6489;
-        font-size: 2.5rem;
-    }
-    .select2-selection {
-        //height: 36px !important;
-        //margin-top: 10px;
-    }
-    .select2-selection__arrow {
-        //top: 11px !important;
-    }
 }
-.price-result,
-.price-result-2{
-  margin-top: 30px;
-  margin-bottom: 30px;
-    .starting-price,
-    .starting-price-2{
-        width: 200px;
-        height: 200px;
-        border: 2px solid #2A6489;
-        border-radius: 1000px;
-        @include breakpoint($md) {
-          margin: auto auto auto 40px;
-        }
-        .p-currency {
-            font-size: 2.5em;
-            position: relative;
-            top: 50%;
-            padding-top: 15px;
-            /* IE 9 */
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            color: #2A6489;
-            &:after {
-                font-size: 0.3em;
-                display: block;
-                padding-top: 3px;
-                content: 'Starting Price';
-            }
-        }
-        .long-currency {
-            font-size: 0.7em;
-            position: relative;
-            top: 50%;
-            margin: -30px 0 0;
-            padding: 0;
-            /* IE 9 */
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            color: #2A6489;
-        }
-    }
-    .price-included {
-        padding-left: 1rem;
-        margin-top: 2rem;
-        h4 {
-            text-align: left;
-            font-size: 1rem;
-            color: #2A6489;
-        }
-        ul {
-            font-size: 0.9rem;
-            font-weight: bold;
-            padding-left: 10px;
-            //list-style-type: none;
-            text-align: left;
-            li {
-                line-height: 0.8rem;
-            }
-        }
-    }
-    .after-whats-included-list {
-        font-size: 0.8rem;
-        text-align: left;
-        line-height: 2.5rem;
-    }
+
+.pc-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 190px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10;
 }
+
+.j1-current-months {
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #141414;
+}
+
+.pc-price-step {
+    font-size: 2rem;
+    color: #00c8ee;
+}
+
+.j1-selector-step {
+    font-size: 1.5rem;
+    color: #00c8ee;
+}
+
+.pc-price-title {
+    height: 60px;
+    margin-top: 10px;
+    color: #141414;
+}
+
+.pc-selector-control {
+    margin-top: 0.5rem;
+    display: none;
+}
+
+.pc-selector-active .pc-backdrop {
+    display: none;
+}
+
+.pc-selector-active .j1-selector-control {
+    display: block;
+}
+
+.j1-starting-price {
+    color: #00c8ee;
+    font-size: 2.5rem;
+}
+
+.price-result, .price-result-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.starting-price, .starting-price-2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #2A6489;
+    border-radius: 1000px;
+}
+
+.p-currency {
+    font-size: 2.5em;
+    position: relative;
+    top: 50%;
+    padding-top: 15px;
+    /* IE 9 */
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #2A6489;
+}
+
+.p-currency:after {
+    font-size: 0.3em;
+    display: block;
+    padding-top: 3px;
+    content: 'Starting Price';
+}
+
+.long-currency {
+    font-size: 0.7em;
+    position: relative;
+    top: 50%;
+    margin: -30px 0 0;
+    padding: 0;
+    /* IE 9 */
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #2A6489;
+}
+
+.price-included {
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+.price-included h4 {
+    text-align: left;
+    font-size: 1rem;
+    color: #2A6489;
+}
+.price-included ul {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.price-included ul li {
+    line-height: 0.8rem;
+}
+
+.after-whats-included-list {
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
 .price-hidden {
     display: none;
 }
+
 .pc-bottom-note {
-  margin-top: 40px;
-  font-size: 1rem;
+    margin-top: 40px;
+    font-size: 1rem;
 }
