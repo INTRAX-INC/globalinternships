@@ -6,7 +6,7 @@ var programCalculator = (function($) {
     templateLocation: 'https://cdn.jsdelivr.net/gh/dennowong/globalinternships@latest/html/programCalculatorTemplate.html',
     handlebarsTemplateInternalName: 'programCalculatorTemplate.html',
     mainContainer: '#program-calculator',
-    csv_location: 'https://cdn.jsdelivr.net/gh/dennowong/globalinternships@latest/js/program_calculator/premium_prices.csv'
+    csv_location: 'https://uploads-ssl.webflow.com/5ec561ed25beadc20eb206da/5ee41baa7d4707a3b8a74795_premium_prices.csv'
   };
 
   function sortList(id) {
