@@ -286,19 +286,19 @@ var programCalculator = (function($) {
   }
 
   function parseTemplate(data) {
-    if (options.compiledTemplate) {
+    /* if (options.compiledTemplate) {
       var rendered = Handlebars.templates[options.handlebarsTemplateInternalName](data);
       $(options.mainContainer).html(rendered);
       addEvents(data);
     }
-    else {
+    else { */
       $.get(options.templateLocation, function (template) {
         var compiled = Handlebars.compile(template);
         var rendered = compiled(data);
         $(options.mainContainer).html(rendered);
         addEvents(data);
       });
-    }
+    /* } */
   }
 
   function main() {
