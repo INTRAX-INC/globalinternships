@@ -79,7 +79,7 @@
     margin-bottom: 30px;
 }
 
-.starting-price, .starting-price-2 {
+.price-result .starting-price, .price-result .starting-price-2, .price-result-2 .starting-price, .price-result-2 .starting-price-2 {
     width: 200px;
     height: 200px;
     border: 2px solid #00c8ee;
@@ -118,7 +118,7 @@
     color: #00c8ee;
 }
 
-.price-included {
+.price-result .price-included, .price-result-2 .price-included {
     padding-left: 1rem;
     margin-top: 2rem;
 }
@@ -139,7 +139,7 @@
     line-height: 0.8rem;
 }
 
-.after-whats-included-list {
+.price-result .after-whats-included-list, .price-result-2 .after-whats-included-list, {
     font-size: 0.8rem;
     text-align: left;
     line-height: 2.5rem;
