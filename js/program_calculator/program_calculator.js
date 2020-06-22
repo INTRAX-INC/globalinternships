@@ -196,7 +196,7 @@ var programCalculator = (function($) {
         $('.price-result-2').addClass('price-hidden');
       }
 
-      ga('send', 'event', 'Program Price Calculated', 'Calculated', $('#select2-chosen-1').text() + " to " + $('#select2-chosen-2').text()); // analytics
+      //ga('send', 'event', 'Program Price Calculated', 'Calculated', $('#select2-chosen-1').text() + " to " + $('#select2-chosen-2').text()); // analytics
 
       if (data.priceList[$('#pc_destination').val()]['currency'] === 'Yen') {
         $('.starting-price').html('<div class="p-currency">' + accounting.formatMoney(data.priceList[$('#pc_destination').val()]['price'], "￥", 0) + '</div><div class="long-currency">(Japanese Yen)</div>');
