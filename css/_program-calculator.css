@@ -84,6 +84,8 @@
     height: 200px;
     border: 2px solid #00c8ee;
     border-radius: 1000px;
+    text-align: center;
+    margin: auto;
 }
 
 .p-currency {
@@ -133,10 +135,11 @@
     font-weight: bold;
     padding-left: 10px;
     text-align: left;
+    margin-bottom: 10px;
 }
 
 .price-included ul li {
-    line-height: 0.8rem;
+    line-height: 1rem;
 }
 
 .price-result .after-whats-included-list, .price-result-2 .after-whats-included-list, {
