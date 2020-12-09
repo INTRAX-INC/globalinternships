@@ -225,10 +225,10 @@ var programCalculator = (function($) {
           whats_included_list = '<ul><li>Application</li><li>On-Program Support</li><li>Internship Placement</li><li>does not include Tier 5 visa cost</li></ul>';
           break;
         case 5:
-          whats_included_list = '<ul><li>Business Internship Placement</li><li>Application</li><li>Insurance</li><li>J1  Visa Services</li><li> On-Program Support</li><li>Base Fee for 2 months</li><li>80 € for each additional month up to 6 months</li></ul>';
+          whats_included_list = '<ul><li>Business Internship Placement</li><li>Application</li><li>Insurance</li><li>J1  Visa Services</li><li> On-Program Support</li><li>Base Fee for 2 months</li><li>80 € for each additional month</li></ul>';
           break;
         case 6:
-          whats_included_list = '<ul><li>Application</li><li>J1 Visa Services</li><li>On-Program Support</li><li>Internship Placement</li><li>Base fee for 2 and 3 months</li><li>1660 € for 4 - 6 months</li></ul>';
+          whats_included_list = '<ul><li>Application</li><li>J1 Visa Services</li><li>On-Program Support</li><li>Internship Placement</li><li>Base fee for 2 and 3 months</li><li>1700 € for 4 - 6 months</li></ul>';
           break;
         case 7:
           whats_included_list = '<ul><li>Business Internship Placement</li><li>Application</li><li>Insurance</li><li>J1  Visa Services</li><li> On-Program Support</li><li>Base Fee for 2 months</li><li>$90 for each additional month</li></ul>';
@@ -259,10 +259,10 @@ var programCalculator = (function($) {
           whats_included_list2 = '<ul><li>Application</li><li>On-Program Support</li><li>Internship Placement</li><li>does not include Tier 5 visa cost</li></ul>';
           break;
         case 5:
-          whats_included_list2 = '<ul><li>Application</li><li>Insurance</li><li>J1  Visa Services</li><li> On-Program Support</li><li>Business Internship Placement</li><li>Base Fee for 2 months</li><li>80 € for each additional month up to 6 months</li></ul>';
+          whats_included_list2 = '<ul><li>Application</li><li>Insurance</li><li>J1  Visa Services</li><li> On-Program Support</li><li>Business Internship Placement</li><li>Base Fee for 2 months</li><li>80 € for each additional month</li></ul>';
           break;
         case 6:
-          whats_included_list2 = '<ul><li>Application</li><li>J1 Visa Services</li><li>On-Program Support</li><li>Internship Placement</li><li>Base fee for 2 and 3 months</li><li>1770 € for 4 - 6 months</li></ul>';
+          whats_included_list2 = '<ul><li>Application</li><li>J1 Visa Services</li><li>On-Program Support</li><li>Internship Placement</li><li>Base fee for 2 and 3 months</li><li>1700 € for 4 - 6 months</li></ul>';
           break;
         case 7:
           whats_included_list2 = '<ul><li>Application</li><li>Insurance</li><li>J1  Visa Services</li><li> On-Program Support</li><li>Business Internship Placement</li><li>Base Fee for 2 months</li><li>$90 for each additional month</li></ul>';
