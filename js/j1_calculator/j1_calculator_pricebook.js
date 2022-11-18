@@ -6,10 +6,10 @@ var currencies = [
 
 
 var priceBooks = [
-  {"id":1, "name":"Japan", "currency":"Yen", "basePrice":170000, "monthlyFee":13000, "monthStartsCounting":2},
+  {"id":1, "name":"Japan", "currency":"Yen", "basePrice":309900, "monthlyFee":13000, "monthStartsCounting":2},
   {"id":2, "name":"Korea", "currency":"USD", "basePrice":2500, "monthlyFee":100, "monthStartsCounting":2},
-  {"id":3, "name":"Other Asia", "currency":"USD", "basePrice":1800, "monthlyFee":100, "monthStartsCounting":2},
-  {"id":4, "name":"India", "currency":"USD", "basePrice":1600, "monthlyFee":200, "monthStartsCounting":2},
+  {"id":3, "name":"Other Asia", "currency":"USD", "basePrice":2900, "monthlyFee":100, "monthStartsCounting":2},
+  {"id":4, "name":"India", "currency":"USD", "basePrice":2900, "monthlyFee":100, "monthStartsCounting":2},
   {"id":5, "name":"Germany", "currency":"Euro", "basePrice":810, "monthlyFee":40, "monthStartsCounting":3},
   {"id":6, "name":"Eurozone", "currency":"Euro", "basePrice":970, "monthlyFee":80, "monthStartsCounting":2},
   {"id":7, "name":"Americas", "currency":"USD", "basePrice":1245, "monthlyFee":45, "monthStartsCounting":2},
