@@ -87,11 +87,14 @@ var j1Calculator = (function($) {
 
     if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Americas") {
       currPrice = currPricebook[0].basePrice + americas_prices[numMonths-1];
+    } else  if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Americas_trainee") {
+      currPrice = currPricebook[0].basePrice + americas_prices[numMonths-1];
     } else  if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Germany") {
       currPrice = currPricebook[0].basePrice + germany_prices[numMonths-1];
     } else  if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Korea") {
-
       currPrice = currPricebook[0].basePrice + korea_prices[numMonths - 1];
+    } else  if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Japan") {
+      currPrice = currPricebook[0].basePrice + japan_prices[numMonths - 1];
     } else if (numMonths >= currPricebook[0].monthStartsCounting) {
       currPrice = currPricebook[0].basePrice + ((numMonths - currPricebook[0].monthStartsCounting + 1) * currPricebook[0].monthlyFee);
     }
