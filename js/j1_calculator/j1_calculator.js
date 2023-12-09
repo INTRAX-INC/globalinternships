@@ -83,6 +83,7 @@ var j1Calculator = (function($) {
     var americas_prices = [0,65, 130, 300, 365, 430, 600, 665, 730, 900, 965, 1030, 1200, 1265, 1330, 1395, 1460, 1525];
     var germany_prices = [0, 0, 0, 100, 100, 100, 200, 200, 200, 300, 300, 300, 540, 540, 540, 540, 540, 540];
     var korea_prices = [0, 50, 100, 150, 200, 250, 370, 480, 600, 620, 800, 950, 1070, 1180, 1300, 1410, 1530, 1650];
+    var japan_prices = [0, 9800, 10500, 11000, 12800, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000, 13000];
 
     if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Americas") {
       currPrice = currPricebook[0].basePrice + americas_prices[numMonths-1];
