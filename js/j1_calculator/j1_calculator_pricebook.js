@@ -164,6 +164,7 @@ var countrySource = [
   {"name":"Niue", "pricebook":7},
   {"name":"Norway", "pricebook":8},
   {"name":"Oman", "pricebook":8},
+  {"name":"Pakistan", "pricebook":4},
   {"name":"Palestinian Territory, Occupied", "pricebook":8},
   {"name":"Panama", "pricebook":7},
   {"name":"Paraguay", "pricebook":7},
