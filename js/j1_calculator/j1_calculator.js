@@ -81,7 +81,7 @@ var j1Calculator = (function($) {
     });
     var currPrice = 0;
     var americas_prices = [0,65, 130, 300, 365, 430, 600, 665, 730, 900, 965, 1030, 1200, 1265, 1330, 1395, 1460, 1525];
-    var germany_prices = [0, 0, 0, 90, 90, 90, 180, 180, 180, 320, 320, 320, 460, 460, 460, 460, 460, 460];
+    var germany_prices = [0, 0, 0, 100, 100, 100, 200, 200, 200, 300, 300, 300, 540, 540, 540, 540, 540, 540];
     var korea_prices = [0, 50, 100, 150, 200, 250, 370, 480, 600, 620, 800, 950, 1070, 1180, 1300, 1410, 1530, 1650];
 
     if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Americas") {
