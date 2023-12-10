@@ -13,7 +13,6 @@ var priceBooks = [
   {"id":5, "name":"Germany", "currency":"Euro", "basePrice":980, "monthlyFee":40, "monthStartsCounting":3},
   {"id":6, "name":"Eurozone", "currency":"Euro", "basePrice":1070, "monthlyFee":100, "monthStartsCounting":2},
   {"id":7, "name":"Americas", "currency":"USD", "basePrice":1245, "monthlyFee":65, "monthStartsCounting":2},
-  {"id":7.1, "name":"Americas_trainee", "currency":"USD", "basePrice":1345, "monthlyFee":65, "monthStartsCounting":2},
   {"id":8, "name":"EMEA", "currency":"USD", "basePrice":1060, "monthlyFee":90, "monthStartsCounting":2}
 ];
 
