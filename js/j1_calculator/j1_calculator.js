@@ -87,8 +87,6 @@ var j1Calculator = (function($) {
 
     if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Americas") {
       currPrice = currPricebook[0].basePrice + americas_prices[numMonths-1];
-    } else  if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Americas_trainee") {
-      currPrice = currPricebook[0].basePrice + americas_prices[numMonths-1];
     } else  if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Germany") {
       currPrice = currPricebook[0].basePrice + germany_prices[numMonths-1];
     } else  if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Korea") {
