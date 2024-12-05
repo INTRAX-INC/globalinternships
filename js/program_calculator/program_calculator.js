@@ -3,10 +3,10 @@
 var programCalculator = (function($) {
   var options = {
     compiledTemplate: true,
-    templateLocation: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@1.1.20/html/programCalculatorTemplate.html',
+    templateLocation: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@1.1.21/html/programCalculatorTemplate.html',
     handlebarsTemplateInternalName: 'programCalculatorTemplate.html',
     mainContainer: '#program-calculator',
-    csv_location: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@1.1.20/js/program_calculator/premium_prices.csv'
+    csv_location: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@1.1.21/js/program_calculator/premium_prices.csv'
   };
 
   function sortList(id) {
