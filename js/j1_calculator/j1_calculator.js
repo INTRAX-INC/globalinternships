@@ -6,7 +6,7 @@ var j1Calculator = (function($) {
     templateLocation: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@latest/html/j1CalculatorTemplate.html',
     handlebarsTemplateInternalName: 'j1CalculatorTemplate.html',
     mainContainer: '#j1-calculator',
-    dataFileLocation: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@latest/js/j1_calculator/j1_calculator_pricebook.js'
+    dataFileLocation: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@1.1.26/js/j1_calculator/j1_calculator_pricebook.js'
   };
 
   function addEvents() {
@@ -85,6 +85,9 @@ var j1Calculator = (function($) {
     var korea_prices = [0, 50, 100, 150, 200, 250, 370, 480, 600, 620, 800, 950, 1070, 1180, 1300, 1410, 1530, 1650];
     var japan_prices = [0, 9800, 20300, 31300, 44100, 57100, 70100, 83100, 96100, 109100, 122100, 135100, 148100, 161100, 174100, 187100, 200100, 213100];
 
+    console.log(currPricebook[0]);
+    console.log(currPricebook[0].basePrice);
+    console.log(currPricebook[0].name);
     if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Americas") {
       currPrice = currPricebook[0].basePrice + americas_prices[numMonths-1];
     } else  if(numMonths >= currPricebook[0].monthStartsCounting && currPricebook[0].name == "Germany") {
