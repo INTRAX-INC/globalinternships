@@ -6,7 +6,7 @@ var j1Calculator = (function($) {
     templateLocation: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@latest/html/j1CalculatorTemplate.html',
     handlebarsTemplateInternalName: 'j1CalculatorTemplate.html',
     mainContainer: '#j1-calculator',
-    dataFileLocation: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@latest/js/j1_calculator/j1_calculator_pricebook.js'
+    dataFileLocation: 'https://cdn.jsdelivr.net/gh/intrax-inc/globalinternships@1.1.26/js/j1_calculator/j1_calculator_pricebook.js'
   };
 
   function addEvents() {
