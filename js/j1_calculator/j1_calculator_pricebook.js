@@ -12,7 +12,7 @@ var priceBooks = [
   {"id":4, "name":"India", "currency":"USD", "basePrice":2900, "monthlyFee":100, "monthStartsCounting":2},
   {"id":5, "name":"Germany", "currency":"Euro", "basePrice":980, "monthlyFee":40, "monthStartsCounting":3},
   {"id":6, "name":"Eurozone", "currency":"Euro", "basePrice":1070, "monthlyFee":100, "monthStartsCounting":2},
-  {"id":7, "name":"Americas", "currency":"USD", "basePrice":1245, "monthlyFee":65, "monthStartsCounting":2},
+  {"id":7, "name":"Americas", "currency":"USD", "basePrice":1295, "monthlyFee":65, "monthStartsCounting":2},
   {"id":8, "name":"EMEA", "currency":"USD", "basePrice":1070, "monthlyFee":100, "monthStartsCounting":2},
   {"id":9, "name":"France", "currency": "Euro", "basePrice":1040, "monthlyFee":70, "monthStartsCounting": 2}
 ];
