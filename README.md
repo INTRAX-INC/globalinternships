@@ -13,3 +13,5 @@ if it looks good on development, change everything back to https://cdn.jsdelivr.
 
 If you need a hotfix, just use a specific version like @1.1.21 everywhere in the code and the webflow script instead of using @latest. Currently the code is using a specific version instead of latest due to a hot fix. - Added December 5th, 2024. 
 
+Still on github since it is not easy to use a cdn with bitbucket. 
+
