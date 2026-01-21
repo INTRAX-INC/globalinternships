@@ -32,3 +32,6 @@ Container: #j1-calculator
 Calculates prices dynamically based on base price + monthly fees
 
 For the future if the intern and trainee prices need to be updated and displayed on the site, then the j1_calculator.js file needs to be updated and the intrax/j1visa-pricing-eligibility page needs more html elements with ids to add in the extra trainee price and exclude the intern prices when the duration selected is greater than 12 since it won't apply to interns who at most work from 1 - 12 months. Right now only 1 price is displayed on globalinterships.com for J-1 Visa pricing calculator. 
+
+The current version is 1.1.27. The working version before 01/21/2026 was 1.1.23.
+For the file js/j1_calculator/j1_calculator.js, you need to change globalinternships@------- so that the pricebook will point to the latest version 
